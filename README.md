@@ -4,6 +4,8 @@
 
 v0.1 提供按需检查，不提供全局实时拦截、模型身份认证或“中转站不保存聊天”的保证。离线扫描不会运行被检查的代码。端点体检只会向配置的端点发送合成题目。
 
+发布物：[GitHub Release v0.1.0](https://github.com/dongsheng123132/zhongkui-guard/releases/tag/v0.1.0)。ClawHub 上传状态以 `RELEASE_STATUS.md` 的真实记录为准。
+
 ## 快速开始
 
 需要 Python 3.11+，没有第三方依赖：
@@ -31,4 +33,3 @@ python scripts/zkguard.py audit --target relay-a --profile quick --plan --config
 - 缺少可信参考端点时，体检只报告能力结果，不声明模型相同或真实。
 
 详见 `PRIVACY.md`、`SECURITY.md` 和 Skill 内的 references。
-
