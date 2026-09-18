@@ -1,0 +1,12 @@
+{
+  "endpoints": {
+    "relay-a": {
+      "base_url": "https://api.example.invalid/v1",
+      "protocol": "openai-chat",
+      "model": "your-model-id",
+      "api_key_env": "ZHONGKUI_TARGET_API_KEY"
+    }
+  },
+  "budget": {"max_requests": 24, "max_output_tokens_per_request": 512}
+}
+
